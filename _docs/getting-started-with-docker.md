@@ -6,7 +6,7 @@ permalink: /docs/prereqs/getting-started-with-docker/
 
 ## Create Your Tool
 
-Docker is a fantastic tool for creating light-weight containers to run your tools.  What this means is it gives you a fast VM-like environment for Linux where you can automatically install dependencies, make configurations, and setup your tool exactly the way you want, as you would on a "normal" Linux host.  You can then quickly and easily share these Docker images with the world using registries like Quay.io (indexed by Dockstore), Docker Hub, and GitLab.  The full details on how to make new Docker images is beyond the scope of this site. Here we will go through a simple representative example. The end-product is a Dockerfile for your tool stored in a supported Git repository.  The steps, at a high level, are:
+Docker is a fantastic tool for creating light-weight containers to run your tools.  What this means is it gives you a fast VM-like environment for Linux where you can automatically install dependencies, make configurations, and setup your tool exactly the way you want as you would on a "normal" Linux host.  You can then quickly and easily share these Docker images with the world using registries like Quay.io (indexed by Dockstore), Docker Hub, and GitLab.  The full details on how to make new Docker images is beyond the scope of this site. Here we will go through a simple representative example. The end-product is a Dockerfile for your tool stored in a supported Git repository.  The steps at a high level are:
 
 0. create a new repository on GitHub, Bitbucket, or GitLab
 0. create a `Dockerfile` in that repository that describes how to create a Docker image
@@ -116,7 +116,7 @@ The `.` is the path to the location of the Dockerfile, which is in the same dire
 
 ![Release in Github](/assets/images/docs/previous_release.png)
 
-Really, you could use whatever you want for the tag but, practically, you want this to match what Quay.io will use, aka your next release, so that's what I'm doing here. The tool should build normally and should exit without errors.  You should see something like:
+Really, you could use whatever you want for the tag. Practically, you want this to match what Quay.io will use, aka your next release, so that's what I'm doing here. The tool should build normally and should exit without errors.  You should see something like:
 
 ```
 Successfully built 01a7ccf55063

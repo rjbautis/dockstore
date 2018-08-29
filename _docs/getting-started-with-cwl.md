@@ -164,7 +164,7 @@ Finally, the `baseCommand` is the actual command that will be executed. In this 
 baseCommand: ["bash", "/usr/local/bin/bamstats"]
 ```
 
-The [CWL standard](http://www.commonwl.org/) is continuing to evolve and hopefully we will see new features, like support for [EDAM ontology](http://edamontology.org/page) terms, in future releases.  In the mean time, the [Gitter chat](https://gitter.im/common-workflow-language/common-workflow-language) is an active community to help drive the development of CWL in positive directions and we recommend tool authors make their voices heard.
+The [CWL standard](http://www.commonwl.org/) is continuing to evolve and hopefully we will see new features like support for [EDAM ontology](http://edamontology.org/page) terms in future releases.  In the mean time, the [Gitter chat](https://gitter.im/common-workflow-language/common-workflow-language) is an active community to help drive the development of CWL in positive directions and we recommend tool authors make their voices heard.
 
 ## Testing Locally
 
